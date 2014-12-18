@@ -1,4 +1,4 @@
-#android-TV#*android-TV下存放的是在tcl odm 软件所工作时候的所有涉及到的电视方面的app*
+#android-TV# *android-TV下存放的是在tcl odm 软件所工作时候的所有涉及到的电视方面的app*
 
 ##demo   
 *demo是在tcl odm 软件所刚工作时候的周任务*

@@ -1,6 +1,7 @@
 android-TV
 ==========
-##demo: tcl odm 软件所的周任务  
+##demo   
+*	tcl odm 软件所的周任务
 ><a href="#child">child	</a>:儿童模式  2014.12.8——2014.12.14  
 ><a href="#aging">aging	</a>:老化模式  2014.12.1——2014.12.13  
 ><a href="#channel">channel	</a>:TV信源  2014.11.24——2014.11.30  

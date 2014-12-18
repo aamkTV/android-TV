@@ -8,8 +8,8 @@
 ><a href="#fileview">fileview	</a>:文件浏览 2014.11.17——2014.11.23 
 	  
 ###<a name="child">儿童模式</a>
-*	功能：
-	技术：
+*	功能：  
+	技术：  
 ###<a name="aging">老化模式</a>
 ###<a name="channel">TV信源</a>
 ###<a name="fileview">文件浏览</a>

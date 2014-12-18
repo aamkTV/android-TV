@@ -9,7 +9,7 @@
 	  
 ###<a name="child">儿童模式</a>
 *	功能：  
-	技术：  
+	技术：   
 ###<a name="aging">老化模式</a>
 ###<a name="channel">TV信源</a>
 ###<a name="fileview">文件浏览</a>

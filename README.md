@@ -6,7 +6,7 @@ android-TV
 <a href="#channel">channel</a>:   TV信源  2014.11.24——2014.11.30  
 <a href="#fileview">fileview</a>: 文件浏览 2014.11.17——2014.11.23 
 	  
-###<div name="child">儿童模式</div>
-###<div name="aging">老化模式</div>
-###<div name="channel">TV信源</div>
-###<div name="fileview">文件浏览</div>
+###<a name="child">儿童模式</a>
+###<a name="aging">老化模式</a>
+###<a name="channel">TV信源</a>
+###<a name="fileview">文件浏览</a>

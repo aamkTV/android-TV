@@ -41,10 +41,12 @@
 
 	(ListView+PopupWindow)(界面)+SimpleCursorAdapter+CursorLoader+SQLiteOpenHelper：  
 	
-		1.SimpleCursorAdapter：利用ViewHolder重写newView和bindView来实现item的自定义布局，实现布局与数据的绑定  
+		1.SimpleCursorAdapter：利用ViewHolder重写newView和bindView来实现item的自定义布局，
+		实现布局与数据的绑定  
 		2.CursorLoader：既然用到了sqlite，也就自然用到了它，数据的加载，就更新需求很好实现了  
 		3.SQLiteOpenHelper：有个坑，索引id名设为index或id在BaseColumns没用  
-		4.ListView+PopupWindow：主要做的是事件的监听与重写，当然了这里用了猥琐的方式解决按键重复响应的问题，导致代码有点恶心   
+		4.ListView+PopupWindow：主要做的是事件的监听与重写，当然了这里用了猥琐的方式解决按键
+		重复响应的问题，导致代码有点恶心   
 		5.SQLiteOpenHelper：使用execSQL时，能加上字符串的尽量用反斜杠加上双引号  
 
 ###<a name="fileview">文件浏览</a>
@@ -56,5 +58,6 @@
 	
 &ensp;技术：
 
-	1.BroadcastReceiver：动态广播的监听。由于底层对usb的监听监听做得不到位，导致部分数据没有及时更新，导致系统获取到的底层数据是有问题的，所以用了猥琐的方式搞了下。
+	1.BroadcastReceiver：动态广播的监听。由于底层对usb的监听监听做得不到位，导致部分数据没有
+	及时更新，导致系统获取到的底层数据是有问题的，所以用了猥琐的方式搞了下。
 	2.listview：显示文件

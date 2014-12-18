@@ -9,8 +9,19 @@
 &emsp;<a href="#fileview">fileview</a>:&emsp;文件浏览 2014.11.17——2014.11.23 
 	  
 ###<a name="child">儿童模式</a>
+
 &ensp;功能：  
-&ensp;技术：   
+
+	1.状态开关：用来控制儿童模式功能的开启和关闭   
+	2.限时观看：设定时间，定时锁屏  
+	3.密码修改  
+	4.锁屏界面：将原有的界面遮盖住  
+	5.开机检测儿童模式是否开启，如果处于开启状态，直接锁屏  
+	
+&ensp;技术：  
+
+	1.AlarmManager：利用setRepeating来实现定时锁屏  
+	2.开机检测：监听开机广播，来唤醒service，由service通过隐式intent来激活锁屏app  
 
 ###<a name="aging">老化模式</a>
 
